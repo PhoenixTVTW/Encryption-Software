@@ -1,2 +1,34 @@
 # Encryption-Software
 Second One
+
+
+Installer instructions for verschluesseler
+
+
+Options to create an installer EXE for Windows:
+
+1) Inno Setup (recommended)
+   - Install Inno Setup from https://jrsoftware.org/
+   - Build with: `"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" verschluesseler.iss`
+
+2) NSIS
+   - Install NSIS from https://nsis.sourceforge.io/
+   - Build with: `makensis verschluesseler.nsi`
+
+
+
+Both scripts assume `dist\verschluesseler.exe` exists in the project root.
+
+
+
+Included files:
+- `verschluesseler.iss` — Inno Setup script
+- `verschluesseler.nsi` — NSIS script
+
+Customize `AppName`, `AppVersion`, `DefaultDirName`, and paths as needed.
+
+
+
+UPDATE
+
+ONLY THE EXE, not any more stuff
