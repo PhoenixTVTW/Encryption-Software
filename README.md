@@ -1,4 +1,3 @@
-
 # Paragon 6
 
 Paragon 6 is a modern desktop encryption utility for secure file, folder, and text encryption.
